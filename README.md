@@ -51,7 +51,7 @@ Save leadsheet to auto-generated filename
 $ mkdir songs
 $ ug2cho https://tabs.ultimate-guitar.com/tab/monty-python/always-look-on-the-bright-side-of-life-chords-76791 songs
 $ ls songs
-Monty Python - Always Look On The Bright Side of Life
+Monty Python - Always Look On The Bright Side of Life.cho
 ```
 
 Save to intermediate `ug` format, patch up the leadsheet and then convert it to ChordPro:
