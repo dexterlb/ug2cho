@@ -1,0 +1,22 @@
+[project]
+name = "ug2cho"
+version = "0.1.0"
+description = "A minimal example package"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "strictyaml",
+    "bs4",
+    "requests",
+]
+
+[project.scripts]
+ug2cho = "ug2cho.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ug2cho"]
