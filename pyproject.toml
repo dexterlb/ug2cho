@@ -1,7 +1,7 @@
 [project]
 name = "ug2cho"
 version = "0.1.0"
-description = "A minimal example package"
+description = "Convert leadsheets from ultimate-guitar.com into ChordPro or plain text"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
